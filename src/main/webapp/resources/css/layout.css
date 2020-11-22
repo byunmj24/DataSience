@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+}
+
+/* 데스크탑 브라우저 가로 */
+@media only screen and (min-width : 1224px) {
+	.wrap {
+		width: 1530px;
+		margin: 0 auto;
+		border : 1px solid black;
+	}
+}
+
+/* 큰 모니터 */
+@media only screen and (min-width : 1824px) {
+	.wrap {
+		width: 1920px;
+		margin: 0 auto;
+		border : 1px solid black;
+	}
+}
+
+.header {
+	height: 80px;
+	background-color: #f8f9fa !important;
+}
+
+.header div {
+	height: 80px;
+}
+
+/* 데스크탑 브라우저 가로 */
+@media only screen and (min-width : 1224px) {
+	.header_side{
+		width: 165px;
+	}
+	
+	.content_side{
+		width: 165px;
+	}
+}
+
+/* 큰 모니터 */
+@media only screen and (min-width : 1824px) {
+	.header_side{
+		width: 360px;
+	}
+	
+	.content_side{
+		width: 360px;
+	}
+}
+
+.header_logo {
+	float: left;
+	display: inline;
+	line-height: 100px;
+	text-align: right;
+}
+
+.header_menu {
+	float: left;
+	width: 1200px;
+	text-align: center;
+	/* border: 1px solid black; */
+}
+
+.header_login {
+	float: left;
+}
+
+.header_menu li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 50px;
+}
+
+.header_menu a {
+	color: rgba(0, 0, 0, .3);
+	font-size: large;
+	font-weight: 520;
+	line-height: 3;
+	text-decoration: none;
+}
+
+.header_menu a:hover {
+	color: #5a5a5a;
+}
+
+.content {
+	height: 650px;
+	border: 1px solid black;
+}
+
+.content_side {
+	float: left;
+	display: inline;
+	line-height: 100px;
+	text-align: right;
+	border: 1px solid black;
+	height: 650px;
+}
+
+.content_center {
+	float: left;
+	width: 1200px;
+	text-align: center;
+	border: 1px solid black;
+	height: 650px;
+}
